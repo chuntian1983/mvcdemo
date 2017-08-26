@@ -85,3 +85,4 @@ C:\Users\Administrator\Documents\Visual Studio 2010\Projects\mvcdemo\WebApplicat
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\mvcdemo\WebApplication5\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\mvcdemo\WebApplication5\obj\Release\WebApplication5.dll
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\mvcdemo\WebApplication5\obj\Release\WebApplication5.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\mvcdemo\WebApplication5\obj\Release\mvcdemodatatable.csprojResolveAssemblyReference.cache
