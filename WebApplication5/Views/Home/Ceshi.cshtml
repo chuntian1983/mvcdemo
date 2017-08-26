@@ -1,0 +1,55 @@
+﻿
+
+@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+<div>
+    ceshidhiashf
+    
+
+    <table>
+
+        @foreach (System.Data.DataRow dr in (ViewData["t1"] as System.Data.DataTable).Rows)
+        {
+
+
+        <tr>
+            <td>@dr[0]</td>
+            <td>@dr[1]</td>
+        </tr>
+        }
+    </table>
+    <table>
+        @foreach (System.Data.DataRow dr2 in (ViewData["t2"] as System.Data.DataTable).Rows)
+        {
+
+
+            <tr>
+                <td>@dr2[0].ToString().Substring(0, 2)..</td>
+                <td>@dr2[1]</td>
+            </tr>
+        }
+    </table>
+    <table>
+
+        <tr>
+            <td>@{ var va = (ViewData["t2"] as System.Data.DataTable).Rows[0][0].ToString();} <a href="/home/ceshi2/3" >@va</a> 
+     
+            </td>
+        </tr>
+    </table>
+</div>
+<address>
+    One Microsoft Way<br />
+    Redmond, WA 98052-6399<br />
+    <abbr title="Phone">P:</abbr>
+    425.555.0100
+</address>
+
+<address>
+    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address>
+
